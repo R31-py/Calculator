@@ -24,6 +24,16 @@ public class Calculator {
         return a*a;
 
     }
+
+    public double sinus(int a ){
+        return Math.sin(a);
+
+    }
+
+    public double cosinus(int a ){
+        return Math.cos(a);
+
+    }
     public float divide(int a, int b){
             if (b == 0) {
                 throw new DivideByZeroException("Cannot divide by zero.");
