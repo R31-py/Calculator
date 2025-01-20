@@ -1,5 +1,7 @@
 package org.example;
 
+import static java.lang.Math.sqrt;
+
 public class Calculator {
 
     public int add(int a, int b) {
@@ -12,6 +14,10 @@ public class Calculator {
 
     public int multiply(int a, int b) {
         return a * b;
+    }
+
+    public double squareroot(int a){
+        return sqrt(a);
     }
 
     public float divide(int a, int b){

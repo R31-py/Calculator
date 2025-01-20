@@ -40,4 +40,9 @@ class CalculatorTest {
         assertNotEquals(2, calculator.divide(4, 4));
         assertThrows(DivideByZeroException.class, () -> calculator.divide(12, 0), "Can not divide by 0 success");
     }
+
+    @Test
+    void squareroot(){
+        assertEquals(2,calculator.squareroot(4));
+    }
 }
