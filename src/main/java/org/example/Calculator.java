@@ -31,6 +31,13 @@ public class Calculator {
             }
             return a / b;
         }
+    public double sine(double degrees) {
+        return Math.sin(degrees);
+    }
+
+    public double cosine(double degrees) {
+        return Math.cos(degrees);
+    }
 
 
 }

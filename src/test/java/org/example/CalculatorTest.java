@@ -51,4 +51,13 @@ class CalculatorTest {
         assertEquals(16,calculator.quadrate(4));
 
     }
+
+    @Test
+    void sin(){
+        assertEquals(Math.sin(Math.PI/2),calculator.sine(Math.PI/2));
+        assertNotEquals(Math.sin(Math.PI/2),calculator.sine(Math.PI));
+    }
+    void cos(){
+        assertEquals(Math.cos(Math.PI/2),calculator.cosine(Math.PI/2));
+    }
 }
