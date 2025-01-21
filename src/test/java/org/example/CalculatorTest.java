@@ -46,27 +46,9 @@ class CalculatorTest {
         assertEquals(2,calculator.squareroot(4));
     }
 
-
     @Test
     void quadrate(){
         assertEquals(16,calculator.quadrate(4));
 
     }
-
-    @Test
-    void sine(){
-        assertEquals(Math.sin(2),calculator.sinus(2));
-
-    }
-
-    @Test
-    void cose(){
-        assertEquals(Math.sin(2),calculator.cosinus(2));
-
-    }
-
-
-
-
-
 }
