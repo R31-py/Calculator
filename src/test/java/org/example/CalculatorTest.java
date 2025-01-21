@@ -45,7 +45,7 @@ class CalculatorTest {
     void squareroot(){
         assertEquals(2,calculator.squareroot(4));
     }
-    
+
     @Test
     void quadrate(){
         assertEquals(16,calculator.quadrate(4));
