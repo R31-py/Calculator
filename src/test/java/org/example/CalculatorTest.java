@@ -51,4 +51,24 @@ class CalculatorTest {
         assertEquals(16,calculator.quadrate(4));
 
     }
+
+    @Test
+    void sine() {
+        // Test sine of 0 degrees
+        assertEquals(0, calculator.sine(0), 0.0001);
+        // Test sine of 90 degrees
+        assertEquals(1, calculator.sine(90), 0.0001);
+        // Test sine of 45 degrees
+        assertEquals(0.7071, calculator.sine(45), 0.0001);
+    }
+
+    @Test
+    void cosine() {
+        // Test cosine of 0 degrees
+        assertEquals(1, calculator.cosine(0), 0.0001);
+        // Test cosine of 90 degrees
+        assertEquals(0, calculator.cosine(90), 0.0001);
+        // Test cosine of 45 degrees
+        assertEquals(0.7071, calculator.cosine(45), 0.0001);
+    }
 }
